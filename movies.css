@@ -1,0 +1,118 @@
+ body{
+    /* background-image:url(./backgrounimage/backimg.jpg) ;
+    width:100vw;
+    height:100vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: scroll;
+    box-sizing: border-box;
+    overflow: scroll; */
+    margin:0px;
+    padding:0 px;
+    box-sizing:border-box ;
+} 
+
+.container{
+background-image:url(./backgrounimage/backimg.jpg) ;
+    width:100vw;
+    height:100vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: scroll;
+    box-sizing: border-box;
+    overflow: scroll;
+
+}
+
+    
+
+h1{
+    color:chartreuse;
+    text-align: center;
+    font-size:4em;
+   
+}
+
+h1:hover{
+    color:red;
+}
+.gallary img{
+    height: 500px;
+    width: 300px;
+    border-radius :20px;
+    margin-right:40px;
+
+}
+.gallary{
+    height:500px;
+    width:100vw;
+    white-space:nowrap;
+    overflow-x:scroll;
+   scrollbar-width: none;
+}
+
+text:hover{
+    color: darkmagenta;
+}
+#email{
+    color:white;
+    font-size: 2em;
+    background-color:greenyellow;
+    
+}
+#get{
+    color:black;
+    background-color:aliceblue;
+    font-size: 4em;
+    
+}
+input:focus{
+    color:black;
+}
+#head{
+    color:red;
+    font-size: 10em;
+    text-align: center;
+    letter-spacing: 30px;
+    margin:0px;
+   
+}
+#h3{
+    font-size: 4em;
+    color: aliceblue;
+}
+#h5{
+    font-size: 2em;
+    color: aliceblue;
+}
+#p{
+    font-size: 2em;
+    color: aliceblue;
+}
+
+button{
+    padding:10px;
+    font-size: 2em;
+    border-radius: 50%;
+    background:rgba(114, 5, 5, 0.438) ;
+    /* position: fixed;
+    top: 450px;
+    right:50px; */
+    backdrop-filter:blur(1px);
+}
+nav{
+    height: 60px;
+    position: sticky;
+    top:0px;
+    background-color:rgba(172, 255, 47, 0.699);
+     backdrop-filter:blur(1px);   
+}
+nav a {
+    font-size: 2em;
+    text-decoration: none;
+    font-weight: bolder;
+    color:mediumvioletred;
+    margin-left:400px;
+   
+    
+}
