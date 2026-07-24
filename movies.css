@@ -1,18 +1,18 @@
  body{
-    /* background-image:url(./backgrounimage/backimg.jpg) ;
+    background-image:url(./backgrounimage/backimg.jpg) ;
     width:100vw;
     height:100vh;
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment: scroll;
     box-sizing: border-box;
-    overflow: scroll; */
+    overflow: scroll;
     margin:0px;
     padding:0 px;
     box-sizing:border-box ;
 } 
 
-.container{
+/* .container{
 background-image:url(./backgrounimage/backimg.jpg) ;
     width:100vw;
     height:100vh;
@@ -22,7 +22,7 @@ background-image:url(./backgrounimage/backimg.jpg) ;
     box-sizing: border-box;
     overflow: scroll;
 
-}
+} */
 
     
 
